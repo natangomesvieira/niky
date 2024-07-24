@@ -9,10 +9,6 @@ table {
   border: none;
   width: 100%;
 }
-.font {
-  color: white;
-  text-align: center;
-}
 .image-header{
   background-image: url('https://quicard-web.s3.sa-east-1.amazonaws.com/INOVA/images/INOVAN001/background-header.png');
   background-size: cover; 
@@ -20,7 +16,19 @@ table {
   height: 262px;
   margin: 0;
 }
+.name, .card {
+  color: white;
+  text-align: right;
+  vertical-align: middle;
+}
+
 .data-card{
   color: white;
   text-align: right;
+}
+.date-extract{
+  margin: 20px, 48px, 20px, 48px;
+}
+.movements{
+  margin: 0px, 48px, 48px, 48px;
 }
